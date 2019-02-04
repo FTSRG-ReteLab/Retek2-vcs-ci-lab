@@ -13,6 +13,16 @@ Clone the repository and execute Gradle to build the application:
 ```
 ./gradlew build
 ```
+##itt egy sor 
+
+
+* Itt egy másik.
+* Itt is van.
+
+```
+./Futtatható
+```
+
 
 To compile and run tests also execute:
 
