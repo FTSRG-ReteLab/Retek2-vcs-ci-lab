@@ -3,10 +3,12 @@ subprojects {
 
   repositories {
     jcenter()
+    mavenCentral()
   }
   
   dependencies {
-  	compile "guava:com.google.guava:27.0.1-jre"
-  	testCompile "guava:com.google.guava:27.0.1-jre"
+  	compile "com.google.guava:guava:27.0.1-jre"
+  	testCompile "com.google.guava:guava:27.0.1-jre"
   }
+  
 }
