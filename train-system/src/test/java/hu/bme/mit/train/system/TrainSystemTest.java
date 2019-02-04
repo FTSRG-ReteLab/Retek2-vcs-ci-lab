@@ -22,7 +22,7 @@ public class TrainSystemTest {
 		sensor = system.getSensor();
 		user = system.getUser();
 
-		sensor.overrideSpeedLimit(-10);
+		sensor.overrideSpeedLimit(50);
 	}
 	
 	@Test
@@ -49,6 +49,7 @@ public class TrainSystemTest {
 		controller.followSpeed();
 		Assert.assertEquals(0, controller.getReferenceSpeed());
 	}
+	
 
 	
 }
