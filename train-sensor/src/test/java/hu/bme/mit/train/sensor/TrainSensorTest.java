@@ -5,6 +5,10 @@ import org.junit.Before;
 import org.junit.Test;
 import static org.mockito.Mockito.*;
 
+import hu.bme.mit.train.system.TrainSystem;
+import hu.bme.mit.train.interfaces.TrainSensor;
+
+
 public class TrainSensorTest {
 
    TrainSensor sensor;
