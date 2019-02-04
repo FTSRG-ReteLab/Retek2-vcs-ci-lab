@@ -13,7 +13,7 @@ Clone the repository and execute Gradle to build the application:
 ```
 ./gradlew build
 ```
-##itt egy sor 
+##itt egy sor,vagy mégis. 
 
 
 * Itt egy másik.
